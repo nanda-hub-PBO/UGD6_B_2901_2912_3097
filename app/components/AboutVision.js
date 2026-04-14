@@ -1,14 +1,15 @@
-export default function AboutVision(){
-  return(
-    <div className="grid">
-      <div className="card">
-        <h3><span className="icon-circle">🚢</span> ABOUT US</h3>
-        <p>TESSERA Maritime Logistics adalah perusahaan teknologi yang berfokus pada solusi digital untuk operasional pelabuhan dan pengiriman barang melalui kapal.<br/><br/>Sistem ini membantu operator dalam memantau posisi kapal, status operasional, dan kondisi cuaca secara real-time dalam satu tampilan yang jelas dan efisien.</p>
+export default function AboutVision() {
+  return (
+    <section className="grid md:grid-cols-2 gap-10 py-20">
+      <div>
+        <h3 className="text-[#b44fff]">// About</h3>
+        <p className="text-gray-400">TESSERA solusi maritim digital.</p>
       </div>
-      <div className="card">
-        <h3><span className="icon-circle">👁️</span> VISION</h3>
-        <p>Menjadi solusi teknologi pelabuhan terdepan dalam meningkatkan efisiensi dan visibilitas operasional kapal secara real-time.</p>
+
+      <div>
+        <h3 className="text-[#b44fff]">// Vision</h3>
+        <p>"Menjadi ekosistem global."</p>
       </div>
-    </div>
-  )
+    </section>
+  );
 }
