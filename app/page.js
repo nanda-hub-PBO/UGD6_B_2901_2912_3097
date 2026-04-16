@@ -4,7 +4,7 @@ export default function TesseraPage() {
   return (
     <div style={{ backgroundColor: '#08050d', minHeight: '100vh', color: '#f0eaff', fontFamily: 'sans-serif', position: 'relative', overflowX: 'hidden' }}>
       
-      {/* BACKGROUND GRID & GLOW (Ini yang bikin UI "Hidup") */}
+      {/* BACKGROUND GRID & GLOW (Ini yang bikin UI "Hidup.") */}
       <div style={{ 
         position: 'absolute', inset: 0, 
         backgroundImage: 'linear-gradient(to right, rgba(180, 79, 255, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(180, 79, 255, 0.05) 1px, transparent 1px)',
